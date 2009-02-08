@@ -3,6 +3,9 @@ package AnyEvent::Mac::FSEvents;
 use warnings;
 use strict;
 
+our $VERSION = '0.01';
+
+
 =head1 NAME
 
 AnyEvent::Mac::FSEvents - The great new AnyEvent::Mac::FSEvents!
@@ -10,11 +13,6 @@ AnyEvent::Mac::FSEvents - The great new AnyEvent::Mac::FSEvents!
 =head1 VERSION
 
 Version 0.01
-
-=cut
-
-our $VERSION = '0.01';
-
 
 =head1 SYNOPSIS
 
@@ -34,31 +32,17 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 FUNCTIONS
 
-=head2 function1
-
-=cut
-
-sub function1 {
-}
-
-=head2 function2
-
-=cut
-
-sub function2 {
-}
 
 =head1 AUTHOR
 
 Pedro Melo, C<< <melo at cpan.org> >>
+
 
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-anyevent-mac-fsevents at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=AnyEvent-Mac-FSEvents>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
-
-
 
 
 =head1 SUPPORT
